@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="face_rec">
+        <df name="src">
+          <in>colormap.cpp</in>
+          <in>decomposition.cpp</in>
+          <in>facerec.cpp</in>
+          <in>helper.cpp</in>
+          <in>lbp.cpp</in>
+          <in>subspace.cpp</in>
+        </df>
+      </df>
+      <df name="src">
+        <in>PeopleDetector.cpp</in>
+        <in>PiCapture.cpp</in>
+        <in>main.cpp</in>
+        <in>main_thread.cpp</in>
+        <in>motion_src.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <folder path="0/face_rec">
+        <ccTool>
+          <incDir>
+            <pElem>face_rec/src</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src">
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="face_rec/src/colormap.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="face_rec/src/decomposition.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="face_rec/src/facerec.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="face_rec/src/helper.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="face_rec/src/lbp.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="face_rec/src/subspace.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/PeopleDetector.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/PiCapture.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/main_thread.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/motion_src.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

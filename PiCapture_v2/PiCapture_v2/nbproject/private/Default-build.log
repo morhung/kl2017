@@ -1,0 +1,25 @@
+CMake Warning (dev) at CMakeLists.txt:24 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "test" is reserved or not valid for certain CMake features,
+  such as generator expressions, and may result in undefined behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/.netbeans/remote/169.254.110.22/binh-Windows-x86_64/C/Users/BINH/Documents/NetBeansProjects/PiCapture_v2
+Scanning dependencies of target test
+[ 10%] Building CXX object CMakeFiles/test.dir/src/main.cpp.o
+[ 20%] Building CXX object CMakeFiles/test.dir/src/PiCapture.cpp.o
+[ 30%] Building CXX object CMakeFiles/test.dir/src/PeopleDetector.cpp.o
+[ 40%] Building CXX object CMakeFiles/test.dir/face_rec/src/facerec.cpp.o
+[ 50%] Building CXX object CMakeFiles/test.dir/face_rec/src/colormap.cpp.o
+[ 60%] Building CXX object CMakeFiles/test.dir/face_rec/src/decomposition.cpp.o
+[ 70%] Building CXX object CMakeFiles/test.dir/face_rec/src/helper.cpp.o
+[ 80%] Building CXX object CMakeFiles/test.dir/face_rec/src/lbp.cpp.o
+[ 90%] Building CXX object CMakeFiles/test.dir/face_rec/src/subspace.cpp.o
+[100%] Linking CXX executable test
+[100%] Built target test
