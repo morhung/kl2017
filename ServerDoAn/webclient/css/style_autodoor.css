@@ -1,0 +1,124 @@
+.*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: inherit;
+	/*background: -webkit-gradient(top left, farthest-side, #33cc33 70%, #00aa00 70%);*/
+	background-image: url(/img/background.jpg) ;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+#webapp{
+	margin: auto;
+	margin-top: 10px;
+	width: 800px;
+	height: 600px;
+	border: solid 3px #6959cd;
+}
+
+#top-right{
+	float: right;
+	height: 20px;
+	font-size: 14px;
+
+}
+#top-right ul{
+	padding: 5px 10px 0px 0px;
+}
+#top-right ul li{
+	float: left;
+	margin-left: 3px;
+}
+
+#top-right ul li a{
+	color: #990000;
+}
+#top-right ul li a:hover{
+	color: #ee0000;
+	cursor: pointer;
+}
+#top-right ul li a img{
+	width: 20px;
+}
+#top{
+	margin: auto;
+	margin-top: 5px;
+	font-size: 32px;
+	/*text-decoration: blink;*/
+	/*color: #990000;*/
+	color: #EEAD0E;
+	/*border: solid 1px black;*/
+	text-align: center;
+	font-weight: bold;
+}
+#first_block_vertical{
+	border: solid 2px #8b5a00;
+	width: 400px;
+	height: 90px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+}
+#first_block_vertical p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.status{
+	border: solid 1px black;
+    border-radius: 5px;
+	position: relative;
+	margin: 5px 150px 5px 150px;
+	padding: 5px 0px;
+}
+/*.status_unlock{
+	border: solid 1px black;
+	position: relative;
+	margin: -35px 150px -35px 150px;
+	padding: 5px 0px;
+}*/
+#second_block_vertical{
+	border: solid 8px #EEAD0E;
+	width: 200px;
+	height: 200px;
+	margin-left: 300px;
+	margin-top: 20px;
+	background-color:#836FFF;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    --border-radius: 100px;
+    border-radius: 100px;
+}
+
+button{
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #d3d3d3;
+	margin-top: 15px;
+	margin-left: 345px;
+}
+#bottom{
+	position: relative;
+	bottom: -100px;
+	/*border: solid 3px black;*/
+	height: 30px;
+	/*margin: auto;*/
+	background-color: #778899;
+	text-align: center;
+	color: white;
+	font-weight: bold solid 2px;
+
+}
+#bottom p{
+	padding-top: 5px;
+}

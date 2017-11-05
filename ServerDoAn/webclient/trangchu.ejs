@@ -1,0 +1,38 @@
+<html>
+<head>	<title> IoT Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style_autodoor.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src = "https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="xuly.js"></script>
+</head>
+<body>
+	<div id = "webapp">
+		<!-- login area -->
+		<div id="top-right">
+					<ul>
+						<li><a href="#"><img src="img/login_icon.png"></a></li>
+						<li>|</li>
+						<li><a href="#">Log in</a></li>
+						<li>|</li>
+						<li><a href="#">Sign up</a></li>
+					</ul>
+				</div>
+				<!-- welcome -->
+		<div id = "top" >
+			<p>WELCOME TO YOUR MANAGER!</p>
+		</div>
+		<!-- lock display status -->
+		<div id = "first_block_vertical">
+			<p>STATIC: </p>
+			<div class = "status" id = "status_box"></div>
+		</div>
+		<!-- display status icon -->
+		<img width = 180px height = 180px id = "second_block_vertical" src = ''/>
+		<button id = "button">Press to change</button>
+		<!-- footer -->
+		<div id = "bottom">
+			<p>Designed By LHVTeam 2017</p>
+		</div>
+	</div>
+</body>
+</html>

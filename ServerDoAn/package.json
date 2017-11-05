@@ -1,0 +1,25 @@
+{
+  "name": "server",
+
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "index.js",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3",
+    "socketio-wildcard": "^0.3.0"
+   },
+  "devDependencies": {
+    "ip": "*"
+   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "hungnd",
+
+  "license": "ISC"
+}
